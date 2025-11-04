@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+    int count=0;
+    int n;
+    scanf("%d",&n);
+    int i=1;
+    count++;
+    int s=1;
+    count++;
+    while(s<=n){
+        i++;
+        count++;
+        s+=i;
+        count++;
+        count++;
+    }
+    count++;
+    printf("%d",count);
+}
